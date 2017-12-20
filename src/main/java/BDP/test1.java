@@ -22,8 +22,11 @@ public class test1 {
 
   @Before
   public void setUp() throws Exception {
-	  System.setProperty("webdriver.gecko.driver","C:\\Users\\cmabila\\Downloads\\geckodriver-v0.19.1-win64\\geckodriver.exe");
+	 
+	System.setProperty("webdriver.gecko.driver","C:\\Users\\cmabila\\Downloads\\geckodriver-v0.19.1-win64\\geckodriver.exe");
     driver = new FirefoxDriver();
+    
+    //URL
     baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
