@@ -38,8 +38,10 @@ public class test1 {
     driver.findElement(By.id("lst-ib")).sendKeys("bdp international");
     Thread.sleep(4500);
     Thread.sleep(4000);
+    
+    //ADding time
     Thread.sleep(7650);
-    Thread.sleep(8500);
+    Thread.sleep(9000);
   }
 
   @After
